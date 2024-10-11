@@ -22,6 +22,7 @@ import android.content.pm.FeatureFlagsImpl;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.UserHandle;
+import com.android.settingslib.applications.AppUtils;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
@@ -55,19 +56,28 @@ public abstract class InstalledAppCounter extends AppCounter {
     }
 
     public static boolean includeInCount(int installReason, PackageManager pm,
-            ApplicationInfo info) {
+                                         ApplicationInfo info) {
         final int userId = UserHandle.getUserId(info.uid);
         if (installReason != IGNORE_INSTALL_REASON
                 && pm.getInstallReason(info.packageName,
-                        new UserHandle(userId)) != installReason) {
+                new UserHandle(userId)) != installReason) {
             return false;
         }
-        if ((info.flags & ApplicationInfo.FLAG_UPDATED_SYSTEM_APP) != 0) {
-            return true;
+        if (!info.enabled) {
+            return false;
         }
-        if ((info.flags & ApplicationInfo.FLAG_SYSTEM) == 0) {
+        if (AppUtils.isInstant(info)) {
+            return false;
+        } else if (hasFlag(info.flags, ApplicationInfo.FLAG_UPDATED_SYSTEM_APP)) {
             return true;
-        }
+        } else if (!hasFlag(info.flags, ApplicationInfo.FLAG_SYSTEM)) {
+            return true;
+        } else if (hasLauncherEntry(pm, info, userId)) {
+            return true;
+        } else return hasFlag(info.flags, ApplicationInfo.FLAG_SYSTEM) && isDefaultHomeApp(pm, info);
+    }
+
+    private static boolean hasLauncherEntry(PackageManager pm, ApplicationInfo info, int userId) {
         Intent launchIntent = new Intent(Intent.ACTION_MAIN, null)
                 .addCategory(Intent.CATEGORY_LAUNCHER)
                 .setPackage(info.packageName);
@@ -79,4 +89,18 @@ public abstract class InstalledAppCounter extends AppCounter {
                 userId);
         return intents != null && intents.size() != 0;
     }
+
+    private static boolean isDefaultHomeApp(PackageManager packageManager, ApplicationInfo appInfo) {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+
+        String defaultLauncher = packageManager.resolveActivity(intent, PackageManager.MATCH_DEFAULT_ONLY).activityInfo.packageName;
+
+        return appInfo.packageName.equals(defaultLauncher);
+    }
+
+    private static boolean hasFlag(int flags, int flag) {
+        return (flags & flag) != 0;
+    }
+
 }
