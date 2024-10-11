@@ -232,6 +232,15 @@
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
+
+        <!-- Build date -->
+        <Preference
+                android:key="build_date"
+                android:order="54"
+                android:title="@string/build_date"
+                android:summary="@string/summary_placeholder"
+                settings:enableCopying="true"
+                settings:controller="com.android.settings.deviceinfo.BuildDatePreferenceController"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

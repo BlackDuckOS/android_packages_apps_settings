@@ -23,4 +23,5 @@
     <string name="lockscreen_wipe_timeout">Attendere e riprovare tra %1$d secondi</string>
     <string name="force_lock_title">Blocco forzato del dispositivo</string>
     <string name="force_lock_summary">Blocca automaticamente il dispositivo se viene utilizzato per un periodo di tempo superiore a quello selezionato.</string>
+    <string name="build_date">Data di costruzione</string>
 </resources>

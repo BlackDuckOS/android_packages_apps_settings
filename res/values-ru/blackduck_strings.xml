@@ -23,4 +23,5 @@
     <string name="lockscreen_wipe_timeout">Пожалуйста, подождите и повторите попытку через %1$d секунд</string>
     <string name="force_lock_title">Принудительное блокирование устройства</string>
     <string name="force_lock_summary">Автоматическая блокировка устройства, если оно будет использоваться дольше выбранного времени</string>
+    <string name="build_date">Дата сборки</string>
 </resources>

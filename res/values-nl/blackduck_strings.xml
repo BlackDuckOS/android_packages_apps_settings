@@ -23,4 +23,5 @@
     <string name="lockscreen_wipe_timeout">Wacht en probeer opnieuw in %1$d seconden</string>
     <string name="force_lock_title">Apparaat geforceerd vergrendelen</string>
     <string name="force_lock_summary">Apparaat automatisch vergrendelen als het langer dan de geselecteerde tijdsduur wordt gebruikt</string>
+    <string name="build_date">Bouwdatum</string>
 </resources>

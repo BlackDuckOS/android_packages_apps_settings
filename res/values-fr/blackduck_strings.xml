@@ -23,4 +23,5 @@
     <string name="lockscreen_wipe_timeout">Veuillez patienter et réessayer dans %1$d secondes</string>
     <string name="force_lock_title">Forcer le verrouillage de l\'appareil</string>
     <string name="force_lock_summary">Verrouille automatiquement l\'appareil s\'il est utilisé plus longtemps que la durée sélectionnée.</string>
+    <string name="build_date">Date de construction</string>
 </resources>

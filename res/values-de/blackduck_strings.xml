@@ -23,4 +23,5 @@
     <string name="lockscreen_wipe_timeout">Bitte warten und in %1$d Sekunden erneut versuchen</string>
     <string name="force_lock_title">Gerät zwangsweise sperren</string>
     <string name="force_lock_summary">Automatisches Sperren des Geräts, wenn es länger als die ausgewählte Zeitspanne verwendet wird</string>
+    <string name="build_date">"Baudatum"</string>
 </resources>

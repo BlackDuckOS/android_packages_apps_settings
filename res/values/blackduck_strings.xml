@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mode_pin">"PIN"</string>
+    <string name="mode_password">"Password"</string>
+    <string name="set">"Set"</string>
+    <string name="update">"Update"</string>
+    <string name="confirm_old">"Confirm old"</string>
+    <string name="confirm_new">"Confirm new"</string>
+    <string name="too_short">%1$s is too short. Minimum is %2$s</string>
+    <string name="too_big">%1$s is too big. Maximum is %2$s</string>
+    <string name="old_entry_wrong">Old %1$s does not match</string>
+    <string name="confirm_entry_wrong">Confirm %1$s does not match new %1$s</string>
+    <string name="success">"%1$s updated successfully"</string>
+    <string name="dialer_wipe_title">"Wipe via emergency dialer"</string>
+    <string name="dialer_wipe_hint">"You can launch emergency dialer using "Emergency call" button on the lockscreen or long power button press"</string>
+    <string name="dialer_emergency_selected">"You can not use %1$s as wipe PIN. It is emergency number"</string>
+    <string name="dialer_wipe_summary">"%1$s PIN used to wipe device in emergency call"</string>
+    <string name="lockscreen_wipe_title">"Wipe via lockscreen"</string>
+    <string name="lockscreen_wipe_summary">"%1$s passphrase used to wipe device in lockscreen"</string>
+    <string name="lockscreen_wipe_hint">"Enter passphrase in lockscreen to destroy all data.\nWARNING! Wipe passphrase will be destroyed if you select another unlock method(e.g. pin or pattern)"</string>
+    <string name="lockscreen_unsupported_unlock_method">Current lockscreen method is not password</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">Wipe password can not be same with current lockscreen password</string>
+    <string name="lockscreen_wipe_timeout">"Please wait and try again in %1$d seconds"</string>
+    <string name="force_lock_title">"Force lock device"</string>
+    <string name="force_lock_summary">"Automatically lock device if it will be used more than the selected duration of time"</string>
+    <string name="build_date">"Build date"</string>
+</resources>

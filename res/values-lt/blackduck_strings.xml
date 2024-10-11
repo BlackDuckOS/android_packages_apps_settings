@@ -23,4 +23,5 @@
     <string name="lockscreen_wipe_timeout">Palaukite ir bandykite dar kartą po %1$d sekundžių</string>
     <string name="force_lock_title">Priverstinis įrenginio užrakinimas</string>
     <string name="force_lock_summary">Automatiškas įrenginio užrakinimas, jei jis bus naudojamas ilgiau nei pasirinkta trukmė</string>
+    <string name="build_date">Sukūrimo data</string>
 </resources>
