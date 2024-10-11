@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_pin">Пин</string>
+    <string name="mode_password">Пароль</string>
+    <string name="set">Установить</string>
+    <string name="update">Обновить</string>
+    <string name="confirm_old">"Подтвердить старый "</string>
+    <string name="confirm_new">"Подтвердить новый  "</string>
+    <string name="too_short">Слишком короткий %1$s минимальное значение %2$s</string>
+    <string name="too_big">"Слишком большой %1$s максимальное значение %2$s "</string>
+    <string name="old_entry_wrong">"Старый %1$s не совпадает  "</string>
+    <string name="confirm_entry_wrong">Подтвеждающий %1$s не совпадает с новым %1$s</string>
+    <string name="success">"%1$s Обновлен успешно  "</string>
+    <string name="dialer_wipe_title">Вайп через \"экстренный вызов\"</string>
+    <string name="dialer_wipe_hint">Запустить экстренный вызов можно с помощью кнопки \"Экстренный вызов\" на локскрине или длительного нажатия кнопки питания</string>
+    <string name="dialer_emergency_selected">Вы не можете использовать %1$s для вайп пин-кода, это код экстренного вызова</string>
+    <string name="dialer_wipe_summary">%1$s PIN-код используется для вайпа при экстренном вызове</string>
+    <string name="lockscreen_wipe_title">Вайп через локскрин</string>
+    <string name="lockscreen_wipe_summary">%1$s секретная фраза, используемая для стирания устройства на экране блокировки</string>
+    <string name="lockscreen_wipe_hint">Введите кодовую фразу на экране блокировки, чтобы уничтожить все данные. ВНИМАНИЕ! При выборе другого метода разблокировки (например, с помощью пин-кода или шаблона) парольная фраза будет уничтожена\".</string>
+    <string name="lockscreen_unsupported_unlock_method">Текущий метод блокировки экрана не является паролем</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">Пароль для вайпа не может совпадать с паролем текущего локскрина</string>
+    <string name="lockscreen_wipe_timeout">Пожалуйста, подождите и повторите попытку через %1$d секунд</string>
+    <string name="force_lock_title">Принудительное блокирование устройства</string>
+    <string name="force_lock_summary">Автоматическая блокировка устройства, если оно будет использоваться дольше выбранного времени</string>
+</resources>

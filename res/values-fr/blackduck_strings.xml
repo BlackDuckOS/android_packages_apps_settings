@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_pin">PIN</string>
+    <string name="mode_password">Mot de passe</string>
+    <string name="set">Définissez</string>
+    <string name="update">Actualiser</string>
+    <string name="confirm_old">Confirmer l\'ancien</string>
+    <string name="confirm_new">Confirmer le nouveau</string>
+    <string name="too_short">Trop court %1$s valeur minimale %2$s</string>
+    <string name="too_big">Trop grand %1$s valeur maximale %2$s</string>
+    <string name="old_entry_wrong">L\'ancien %1$s ne correspond pas</string>
+    <string name="confirm_entry_wrong">Confirmer %1$s ne correspond pas au nouveau %1$s</string>
+    <string name="success">%1$s mis à jour avec succès</string>
+    <string name="dialer_wipe_title">Effacement via le numéroteur d\'urgence</string>
+    <string name="dialer_wipe_hint">Vous pouvez lancer le numéroteur d\'urgence en utilisant le bouton \"Appel d\'urgence\" sur l\'écran de verrouillage ou en appuyant longuement sur le bouton d\'alimentation.</string>
+    <string name="dialer_emergency_selected">Vous ne pouvez pas utiliser %1$s comme PIN d\'essuyage. Il s\'agit du numéro d\'urgence</string>
+    <string name="dialer_wipe_summary">%1$s PIN utilisé pour effacer l\'appareil lors d\'un appel d\'urgence</string>
+    <string name="lockscreen_wipe_title">Effacer via l\'écran de verrouillage</string>
+    <string name="lockscreen_wipe_summary">Phrase de passe %1$s utilisée pour effacer l\'appareil dans l\'écran de verrouillage</string>
+    <string name="lockscreen_wipe_hint">Saisissez la phrase de passe dans l\'écran de verrouillage pour détruire toutes les données. La phrase de passe d\'effacement sera détruite si vous sélectionnez une autre méthode de déverrouillage (par exemple, un code PIN ou un motif).</string>
+    <string name="lockscreen_unsupported_unlock_method">La méthode actuelle de verrouillage de l\'écran n\'est pas le mot de passe</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">Le mot de passe d\'effacement ne peut pas être le même que le mot de passe actuel de l\'écran de verrouillage.</string>
+    <string name="lockscreen_wipe_timeout">Veuillez patienter et réessayer dans %1$d secondes</string>
+    <string name="force_lock_title">Forcer le verrouillage de l\'appareil</string>
+    <string name="force_lock_summary">Verrouille automatiquement l\'appareil s\'il est utilisé plus longtemps que la durée sélectionnée.</string>
+</resources>

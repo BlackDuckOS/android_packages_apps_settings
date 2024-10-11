@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_pin">PIN</string>
+    <string name="mode_password">Palavra-passe</string>
+    <string name="set">Instalar</string>
+    <string name="update">Atualizar</string>
+    <string name="confirm_old">Confirmar antigo</string>
+    <string name="confirm_new">Confirmar novo</string>
+    <string name="too_short">Demasiado curto %1$s valor mínimo %2$s</string>
+    <string name="too_big">Demasiado grande %1$s valor máximo %2$s</string>
+    <string name="old_entry_wrong">O antigo %1$s não corresponde</string>
+    <string name="confirm_entry_wrong">Confirmar %1$s não corresponde ao novo %1$s</string>
+    <string name="success">%1$s atualizado com sucesso</string>
+    <string name="dialer_wipe_title">Limpe via discador de emergência</string>
+    <string name="dialer_wipe_hint">Você pode iniciar o discador de emergência usando o botão \"Chamada de emergência\" na tela de bloqueio ou pressionando longamente o botão liga / desliga</string>
+    <string name="dialer_emergency_selected">Você não pode usar %1$s como PIN de limpeza. É o número de emergência</string>
+    <string name="dialer_wipe_summary">%1$s PIN usado para limpar o dispositivo em uma chamada de emergência</string>
+    <string name="lockscreen_wipe_title">Limpar através do ecrã de bloqueio</string>
+    <string name="lockscreen_wipe_summary">%1$s frase-chave utilizada para limpar o dispositivo no ecrã de bloqueio</string>
+    <string name="lockscreen_wipe_hint">Introduza a frase-chave no ecrã de bloqueio para destruir todos os dados. A frase-chave de limpeza será destruída se selecionar outro método de desbloqueio (por exemplo, pin ou padrão)\"</string>
+    <string name="lockscreen_unsupported_unlock_method">O método atual do ecrã de bloqueio não é a palavra-passe</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">A palavra-passe de limpeza não pode ser igual à palavra-passe do ecrã de bloqueio atual</string>
+    <string name="lockscreen_wipe_timeout">Aguarde e tente novamente em %1$d segundos</string>
+    <string name="force_lock_title">Forçar bloqueio do dispositivo</string>
+    <string name="force_lock_summary">Bloqueia automaticamente o dispositivo se este for utilizado durante um período de tempo superior ao selecionado</string>
+</resources>

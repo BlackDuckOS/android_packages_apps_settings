@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_pin">Пін</string>
+    <string name="mode_password">Пароль</string>
+    <string name="set">Встановити</string>
+    <string name="update">Оновити</string>
+    <string name="confirm_old">Підтвердити старий</string>
+    <string name="confirm_new">Підтвердити новий</string>
+    <string name="too_short">Занадто короткий %1$s мінімальне значення %2$s</string>
+    <string name="too_big">Занадто великий %1$s максимальне значення %2$s</string>
+    <string name="old_entry_wrong">Старий %1$s не збігається</string>
+    <string name="confirm_entry_wrong">Підтверджуючий %1$s не збігається з новим %1$s</string>
+    <string name="success">%1$s Оновлено успішно</string>
+    <string name="dialer_wipe_title">Вайп через \"екстрений виклик\"</string>
+    <string name="dialer_wipe_hint">Запустити екстрений виклик можна за допомогою кнопки \"Екстрений виклик\" на локскріні або тривалого натискання кнопки живлення</string>
+    <string name="dialer_emergency_selected">Ви не можете використовувати %1$s для вайп пін-коду, це код екстреного виклику</string>
+    <string name="dialer_wipe_summary">%1$s PIN-код використовується для вайпа під час екстреного виклику</string>
+    <string name="lockscreen_wipe_title">Вайп через локскрін</string>
+    <string name="lockscreen_wipe_summary">%1$s секретна фраза, яка використовується для стирання пристрою на екрані блокування</string>
+    <string name="lockscreen_wipe_hint">Введіть кодову фразу на екрані блокування, щоб знищити всі дані. УВАГА! У разі вибору іншого методу розблокування (наприклад, за допомогою пін-коду або шаблону) парольну фразу буде знищено\".</string>
+    <string name="lockscreen_unsupported_unlock_method">Поточний метод блокування екрана не є паролем</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">Пароль для вайпа не може збігатися з паролем поточного локскріна</string>
+    <string name="lockscreen_wipe_timeout">Будь ласка, зачекайте і повторіть спробу через %1$d секунд</string>
+    <string name="force_lock_title">Примусове блокування пристрою</string>
+    <string name="force_lock_summary">Автоматичне блокування пристрою, якщо він буде використовуватися довше обраного часу</string>
+</resources>

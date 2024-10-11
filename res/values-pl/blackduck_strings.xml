@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_pin">PIN</string>
+    <string name="mode_password">Hasło</string>
+    <string name="set">Ustawić</string>
+    <string name="update">Odświeżyć</string>
+    <string name="confirm_old">Zweryfikuj stary</string>
+    <string name="confirm_new">Zweryfikuj nowy</string>
+    <string name="too_short">Zbyt krótkie %1$s\nminimalna wartość %2$s</string>
+    <string name="too_big">Zbyt długie %1$s\nmaksymalna wartość %2$s</string>
+    <string name="old_entry_wrong">Stary %1$s nie odpowida</string>
+    <string name="confirm_entry_wrong">%1$s potwierdzające nie jest zgodne z nowym %1$s</string>
+    <string name="success">%1$s zostało zmienione</string>
+    <string name="dialer_wipe_title">Usunięcie przez „połączenie alarmowe”</string>
+    <string name="dialer_wipe_hint">Możesz rozpocząć połączenie alarmowe za pomocą przycisku „Połączenie alarmowe” na ekranie blokady lub przez długie naciśnięcie przycisku zasilania</string>
+    <string name="dialer_emergency_selected">Nie możesz używać %1$s do usunięcia, to kod połączenia alarmowego</string>
+    <string name="dialer_wipe_summary">PIN %1$s służy do usunięcia danych w razie połączenia alarmowego</string>
+    <string name="lockscreen_wipe_title">Usunięcie przez ekran blokady</string>
+    <string name="lockscreen_wipe_summary">%1$s tajna fraza,\nsłużąca do usunięcia danych przez ekran blokady urządzenia</string>
+    <string name="lockscreen_wipe_hint">Wprowadź hasło na ekranie blokady, aby zniszczyć wszystkie dane. UWAGA! Jeśli wybierzesz inną metodę odblokowania (np. przy użyciu kodu PIN lub wzoru), fraza hasłowa zostanie zniszczona.”</string>
+    <string name="lockscreen_unsupported_unlock_method">Bieżąca metoda blokowania ekranu nie jest hasłem</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">Hasło usunięcia nie może być takie samo jak bieżące hasło ekranu blokady</string>
+    <string name="lockscreen_wipe_timeout">Poczekaj i spróbuj ponownie za %1$d sekund</string>
+    <string name="force_lock_title">Przymusowa blokada urządzenia</string>
+    <string name="force_lock_summary">Automatyczna blokada urządzenia, jeśli będzie używane dłużej niż wybrany czas</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_pin">PIN</string>
+    <string name="mode_password">Contraseña</string>
+    <string name="set">Instalar</string>
+    <string name="update">Actualizar</string>
+    <string name="confirm_old">Confirmar viejo</string>
+    <string name="confirm_new">Confirmar nuevo</string>
+    <string name="too_short">Demasiado corto %1$s valor mínimo %2$s</string>
+    <string name="too_big">Demasiado grande %1$s valor máximo %2$s</string>
+    <string name="old_entry_wrong">Viejo %1$s  no coincide</string>
+    <string name="confirm_entry_wrong">Confirmando %1$s no coincide con el nuevo %1$s</string>
+    <string name="success">%1$s Actualizado exitosamente</string>
+    <string name="dialer_wipe_title">Limpiar mediante \"llamada de emergencia\"</string>
+    <string name="dialer_wipe_hint">Puede iniciar una llamada de emergencia usando el botón \"Llamada de emergencia\" en la pantalla de bloqueo o presionando prolongadamente el botón de encendido</string>
+    <string name="dialer_emergency_selected">No puedes usar %1$s para borrar un código pin, es un código de llamada de emergencia</string>
+    <string name="dialer_wipe_summary">El código PIN de %1$s se utiliza para borrar durante una llamada de emergencia</string>
+    <string name="lockscreen_wipe_title">Limpiar a través de la pantalla de bloqueo</string>
+    <string name="lockscreen_wipe_summary">%1$s frase secreta utilizada para borrar la pantalla de bloqueo del dispositivo</string>
+    <string name="lockscreen_wipe_hint">Ingrese la frase de contraseña en la pantalla de bloqueo para borrar todos los datos. ¡ATENCIÓN! Si elige otro método de desbloqueo (por ejemplo, utilizando un código PIN o patrón), la frase de contraseña se destruirá\".</string>
+    <string name="lockscreen_unsupported_unlock_method">El método de bloqueo de pantalla actual no es una contraseña</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">La contraseña de borrado no puede ser la misma que la contraseña actual de la pantalla de bloqueo</string>
+    <string name="lockscreen_wipe_timeout">Espere y vuelva a intentarlo en %1$d segundos.</string>
+    <string name="force_lock_title">Bloqueo forzado de dispositivos</string>
+    <string name="force_lock_summary">Bloquea automáticamente el dispositivo si se utiliza durante más tiempo del seleccionado</string>
+</resources>

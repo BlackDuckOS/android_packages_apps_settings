@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_pin">PIN</string>
+    <string name="mode_password">Kennwort</string>
+    <string name="set">Satz</string>
+    <string name="update">Aktualisieren</string>
+    <string name="confirm_old">Bestätigen Sie alt</string>
+    <string name="confirm_new">Bestätigen Sie neu</string>
+    <string name="too_short">Zu kurz %1$s Mindestwert %2$s</string>
+    <string name="too_big">Zu groß %1$s  maximaler Wert %2$s</string>
+    <string name="old_entry_wrong">Altes %1$s stimmt nicht überein</string>
+    <string name="confirm_entry_wrong">Bestätigen Sie %1$s stimmt nicht mit dem neuen %1$s überein</string>
+    <string name="success">%1$s erfolgreich aktualisiert</string>
+    <string name="dialer_wipe_title">" Löschen über die Notrufabfrage"</string>
+    <string name="dialer_wipe_hint">Sie können die Notrufnummer über die Schaltfläche \"Notruf\" auf dem Sperrbildschirm oder durch langes Drücken der Einschalttaste aufrufen.</string>
+    <string name="dialer_emergency_selected">Sie können %1$s nicht als Wisch-PIN verwenden. Es ist die Notrufnummer</string>
+    <string name="dialer_wipe_summary">%1$s PIN wird zum Löschen des Geräts im Notruf verwendet</string>
+    <string name="lockscreen_wipe_title">Löschen über den Sperrbildschirm</string>
+    <string name="lockscreen_wipe_summary">%1$s Passphrase zum Löschen des Geräts im Sperrbildschirm verwenden</string>
+    <string name="lockscreen_wipe_hint">Geben Sie die Passphrase auf dem Sperrbildschirm ein, um alle Daten zu löschen. WARNUNG! Die Löschen-Passphrase wird zerstört, wenn Sie eine andere Entsperrmethode wählen (z. B. Pin oder Muster)\"</string>
+    <string name="lockscreen_unsupported_unlock_method">Die aktuelle Sperrbildschirmmethode ist kein Passwort</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">Das Löschen-Passwort kann nicht mit dem aktuellen Passwort für die Bildschirmsperre übereinstimmen</string>
+    <string name="lockscreen_wipe_timeout">Bitte warten und in %1$d Sekunden erneut versuchen</string>
+    <string name="force_lock_title">Gerät zwangsweise sperren</string>
+    <string name="force_lock_summary">Automatisches Sperren des Geräts, wenn es länger als die ausgewählte Zeitspanne verwendet wird</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_pin">PIN</string>
+    <string name="mode_password">Password</string>
+    <string name="set">"Impostare "</string>
+    <string name="update">Aggiornare</string>
+    <string name="confirm_old">Confermare il vecchio</string>
+    <string name="confirm_new">Confermare il nuovo</string>
+    <string name="too_short">Troppo corto %1$s valore minimo %2$s</string>
+    <string name="too_big">Troppo grande %1$s valore massimo %2$s</string>
+    <string name="old_entry_wrong">Il vecchio %1$s non corrisponde</string>
+    <string name="confirm_entry_wrong">Conferma che %1$s non corrisponde al nuovo %1$s</string>
+    <string name="success">%1$s aggiornato con successo</string>
+    <string name="dialer_wipe_title">Cancellare  tramite il dialer di emergenza</string>
+    <string name="dialer_wipe_hint">È possibile avviare il dialer di emergenza utilizzando il pulsante \"Chiamata di emergenza\" sulla schermata di blocco o premendo a lungo il pulsante di accensione.</string>
+    <string name="dialer_emergency_selected">Non è possibile utilizzare %1$s come PIN di cancellare. È un numero di emergenza</string>
+    <string name="dialer_wipe_summary">%1$s PIN usato per cancellare il dispositivo in una chiamata di emergenza</string>
+    <string name="lockscreen_wipe_title">Cancellare tramite lockscreen</string>
+    <string name="lockscreen_wipe_summary">Passphrase %1$s usata per cancellare il dispositivo nella lockscreen</string>
+    <string name="lockscreen_wipe_hint">Inserire la passphrase nella lockscreen per distruggere tutti i dati. ATTENZIONE! La passphrase di cancellazione verrà distrutta se si seleziona un altro metodo di sblocco (ad esempio, pin o pattern)\".</string>
+    <string name="lockscreen_unsupported_unlock_method">Il metodo attuale per la lockscreen non è una password</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">La password di cancellazione non può essere uguale a quella della schermata di blocco attuale</string>
+    <string name="lockscreen_wipe_timeout">Attendere e riprovare tra %1$d secondi</string>
+    <string name="force_lock_title">Blocco forzato del dispositivo</string>
+    <string name="force_lock_summary">Blocca automaticamente il dispositivo se viene utilizzato per un periodo di tempo superiore a quello selezionato.</string>
+</resources>

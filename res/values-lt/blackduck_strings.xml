@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_pin">PIN</string>
+    <string name="mode_password">Slaptažodį</string>
+    <string name="set">Įdiegti</string>
+    <string name="update">Atnaujinti</string>
+    <string name="confirm_old">Patvirtinti seną</string>
+    <string name="confirm_new">Patvirtinti naują</string>
+    <string name="too_short">Per trumpas %1$s minimalus ilgis %2$s</string>
+    <string name="too_big">Per ilgas %1$s maksimalus ilgis %2$s</string>
+    <string name="old_entry_wrong">Senas %1$s Nesutampa</string>
+    <string name="confirm_entry_wrong">Patvirtinamas %1$s nesutampa su nauju %1$s</string>
+    <string name="success">%1$s Sėkmingai atnaujintas</string>
+    <string name="dialer_wipe_title">Ištrynimas per \"pagalbos skambutį\"</string>
+    <string name="dialer_wipe_hint">Pagalbos skambutį  galite pradėti naudodami mygtuką „Pagalbos skambutis“ užrakinto telefono ekrane arba ilgai paspaudę maitinimo mygtuką</string>
+    <string name="dialer_emergency_selected">Negalite naudoti %1$s kaip ištrynimo PIN kodą. Tai pagalbos numeris</string>
+    <string name="dialer_wipe_summary">%1$s PIN kodas naudojamas įrenginio duomenims ištrinti skambinant pagalbos numeriu</string>
+    <string name="lockscreen_wipe_title">Ištrynimas per užrakinimo ekraną</string>
+    <string name="lockscreen_wipe_summary">%1$s slaptafrazė naudojama ištrinant įrenginio duomenis užrakinimo ekrane</string>
+    <string name="lockscreen_wipe_hint">Įveskite slaptafrazę užrakinimo ekrane, kad sunaikintumėte visus duomenis. DĖMESIO! Jei pasirinksite kitą atrakinimo būdą (pvz., naudojant PIN kodą arba šabloną), slaptafrazė bus panaikinta.</string>
+    <string name="lockscreen_unsupported_unlock_method">Dabartinis ekrano užrakto būdas nėra slaptažodis</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">Ištrynimo slaptažodis negali būti toks pat kaip ir dabartinis ekrano užrakto slaptažodis</string>
+    <string name="lockscreen_wipe_timeout">Palaukite ir bandykite dar kartą po %1$d sekundžių</string>
+    <string name="force_lock_title">Priverstinis įrenginio užrakinimas</string>
+    <string name="force_lock_summary">Automatiškas įrenginio užrakinimas, jei jis bus naudojamas ilgiau nei pasirinkta trukmė</string>
+</resources>

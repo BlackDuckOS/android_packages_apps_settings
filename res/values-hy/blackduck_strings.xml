@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_pin">PIN</string>
+    <string name="mode_password">գաղտնաբառ</string>
+    <string name="set">տեղադրել</string>
+    <string name="update">Թարմացնել</string>
+    <string name="confirm_old">Հաստատել հինը</string>
+    <string name="confirm_new">հաստատել նորը</string>
+    <string name="too_short">%1$s-ը չափազանց կարճ է: Նվազագույն արժեքը %2$s</string>
+    <string name="too_big">%1$s-ը չափազանց մեծ է: Առավելագույն արժեքը %2$s</string>
+    <string name="old_entry_wrong">Հին %1$s-ը չի համընկնում</string>
+    <string name="confirm_entry_wrong">Հաստատված %1$s-ը չի համընկնում նոր %1$s-ի հետ</string>
+    <string name="success">%1$s-ը հաջողությամբ թարմացվեց</string>
+    <string name="dialer_wipe_title">Վերագործարքել արագ արձագանքման ստեղների միջոցով</string>
+    <string name="dialer_wipe_hint">Ահազանգ կարողեք կատարել արագ արձագանքման ստեղների միջոցով՝ արգելափակման էկրանից, կամ սնուցման կոճակի տևական սեղմումով</string>
+    <string name="dialer_emergency_selected">Դուք չեք կարող օգտագործել %1$s-ը որպես գաղտնաբառի վերագանգնում (wipe PIN): Դա ահազանգի համարն է</string>
+    <string name="dialer_wipe_summary">%1$s PIN-ը օգտագործվում է սարքի վերագործարքման համար ահազանգ կատարելիս</string>
+    <string name="lockscreen_wipe_title">Վերագործարքել արգելափակման էկրանից</string>
+    <string name="lockscreen_wipe_summary">%1$s անցաբառն օգտագործվում է սարքը արգելափակման էկրանից վերագործարքելու համար</string>
+    <string name="lockscreen_wipe_hint">Բոլոր տվյալները ոչնչացնելու համար մուտքագրեք արգելափակման էկրանի անցաբառը: Ուշադրություն- ապակողպման մեկ այլ մեթոդ ընտրելիս (օրինակ՝ փին կամ ձևանմուշ) անցաբառը կոչինչացվի</string>
+    <string name="lockscreen_unsupported_unlock_method">Տվյալ մեթոդով էկրանի արգելափակումը չի հանդիսանում գաղտնաբառ</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">Վերակայման գաղտնաբառը չի կարող համընկնել էկրանի արգելափակման գաղտնաբառի հետ</string>
+    <string name="lockscreen_wipe_timeout">Խնդրում ենք սպասել և կրկին փորձել %1$d վայրկյանից</string>
+    <string name="force_lock_title">Սարքի հարկադիր կողպում</string>
+    <string name="force_lock_summary">Սարքի ավտոմատ կողպում եթե այն կօգտագործվի նշված ժամանակից ավելին</string>
+</resources>

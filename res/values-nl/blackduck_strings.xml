@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_pin">PIN</string>
+    <string name="mode_password">Wachtwoord</string>
+    <string name="set">"Stel "</string>
+    <string name="update">Update</string>
+    <string name="confirm_old">Oud bevestigen</string>
+    <string name="confirm_new">Nieuw bevestigen</string>
+    <string name="too_short">Te kort %1$s minimale waarde %2$s</string>
+    <string name="too_big">Te groot %1$s maximale waarde %2$s</string>
+    <string name="old_entry_wrong">Oude %1$s komt niet overeen</string>
+    <string name="confirm_entry_wrong">Bevestig %1$s komt niet overeen met nieuwe %1$s</string>
+    <string name="success">%1$s succesvol geupdatet</string>
+    <string name="dialer_wipe_title">Wis door \"noodoproep\"</string>
+    <string name="dialer_wipe_hint">Je kunt de noodkiezer starten met de knop \"Noodoproep\" op het vergrendelscherm of door lang op de aan/uit-knop te drukken.</string>
+    <string name="dialer_emergency_selected">U kunt %1$s niet gebruiken als wis-PIN.. Het is een noodnummer</string>
+    <string name="dialer_wipe_summary">%1$s PIN gebruikt om apparaat te wissen bij noodoproep</string>
+    <string name="lockscreen_wipe_title">Wis via lockscreen</string>
+    <string name="lockscreen_wipe_summary">%1$s wachtwoordzin gebruikt om apparaat te wissen in lockscreen</string>
+    <string name="lockscreen_wipe_hint">Voer de wachtwoordzin in het lockscreen in om alle gegevens te vernietigen. WAARSCHUWING! Wis passphrase zal worden vernietigd als u een andere ontgrendelingsmethode selecteert (bijv. pin of patroon)\".</string>
+    <string name="lockscreen_unsupported_unlock_method">Huidige lockscreen-methode is geen wachtwoord</string>
+    <string name="lockscreen_wipe_same_with_lockscreen">Het wachtwoord voor wissen kan niet hetzelfde zijn als het huidige wachtwoord voor vergrendelen</string>
+    <string name="lockscreen_wipe_timeout">Wacht en probeer opnieuw in %1$d seconden</string>
+    <string name="force_lock_title">Apparaat geforceerd vergrendelen</string>
+    <string name="force_lock_summary">Apparaat automatisch vergrendelen als het langer dan de geselecteerde tijdsduur wordt gebruikt</string>
+</resources>
